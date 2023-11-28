@@ -1,0 +1,42 @@
+.adidasFlux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contenedorAdidas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.adidas {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid black;
+}
+
+.adidasFlux img {
+    max-width: 50%;
+}
+
+.boton {
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: black;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+}

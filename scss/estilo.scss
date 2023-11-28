@@ -1,0 +1,30 @@
+@import "variables";
+@import "reset";
+@import "header";
+@import "mixin";
+@import "banner";
+@import "sucursales";
+@import "nike";
+@import "adidas";
+@import "contacto";
+@import "footer";
+@import "media";
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+body {
+    background-color: rgb(152, 184, 212);
+}
+
+h1 {
+    color:$color-secundario;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    text-decoration: underline;
+    color: $color-principal;
+    text-align: center;
+    margin: 20px 0;
+}

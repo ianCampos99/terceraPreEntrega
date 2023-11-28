@@ -1,0 +1,52 @@
+// vista tablets //
+
+@media (max-width:1023px) {
+    .encabezado {
+     height: auto;
+     flex-direction: column;
+     text-align: center;
+    } 
+ 
+    .bannerContenido p {
+         font-size: 2.5rem;
+    }
+ 
+     .videoIndex {
+         font-size: inherit;
+     }
+ 
+     .contenedorNike {
+        grid-template-columns: 1fr 1fr; 
+     }
+ 
+     .footerContenido {
+         flex-direction: column;
+         text-align: center;
+     }
+ 
+     .contenedorAdidas {
+         grid-template-columns: 1fr 1fr;
+     }
+ }
+ 
+ 
+ // vista celular //
+ 
+ @media (max-width:768px) {
+ 
+     .contenedorNike {
+         grid-template-columns: 1fr;
+     }
+ 
+     .videoIndex {
+         font-size: inherit;
+     }
+ 
+     .bannerContenido p {
+         font-size: 2.5rem;
+    }
+ 
+    .contenedorAdidas {
+     grid-template-columns: 1fr;
+    }
+ }

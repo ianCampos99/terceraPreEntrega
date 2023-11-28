@@ -1,0 +1,27 @@
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input [type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(7, 2, 2);
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.formularioBottom {
+    background-color: chocolate;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}

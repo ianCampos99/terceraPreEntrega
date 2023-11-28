@@ -1,0 +1,20 @@
+.banner {
+    @include banner;
+    }
+
+
+.bannerContenido {
+    p {
+        color: red;
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .bottonBanner {
+        margin-top: 50px;
+    }
+}
